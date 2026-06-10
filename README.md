@@ -1,5 +1,7 @@
 # Power BI Sales Dashboard
 
+A Power BI portfolio project demonstrating sales analysis, DAX measures, drill-down reporting, data modeling, and interactive dashboard design using Adventure Works sample data.
+
 ## Project Overview
 
 This project is a Power BI sales analysis dashboard created as part of my Power BI learning and practice. The goal of this project is to demonstrate the full Power BI workflow, including data preparation, data modeling, DAX measures, report design, drill-down analysis, and interactive business intelligence visualizations.
@@ -24,6 +26,10 @@ The dashboard provides a high-level overview of sales performance, target compar
 
 ![Sales by Country Breakdown](screenshots/04-sales-by-country-breakdown.png)
 
+### Data Model
+
+![Data Model](screenshots/05-data-model.png)
+
 ## Key Features
 
 - Created an interactive Power BI report with multiple pages
@@ -33,6 +39,7 @@ The dashboard provides a high-level overview of sales performance, target compar
 - Created visuals for sales performance, sales by continent, sales by country, and margin percentage by product category
 - Applied DAX measures for key business metrics
 - Practiced time intelligence measures such as year-to-date sales, previous year sales, and year-over-year percentage
+- Built a structured data model with related tables
 - Designed a clean report layout for business users
 
 ## Tools Used
@@ -63,6 +70,26 @@ The Product Info page shows product-level sales details, including total sales, 
 ### Sales by Country
 
 The Sales by Country visual breaks down total sales by country and shows each country’s contribution as both sales value and percentage of total sales.
+
+## Data Model
+
+The report uses a structured data model with related tables such as Sales, Customer, Product, Order Date, and Sales Territory. Relationships between these tables allow the report visuals and DAX measures to respond dynamically to slicers, filters, and drill-down interactions.
+
+This structure supports interactive analysis and helps organize the data in a way that is easier to understand, maintain, and use for business reporting.
+
+## DAX Measures Used
+
+Some of the measures created and practiced in this project include:
+
+- Total Sales
+- Total Margin %
+- Year-to-Date Sales
+- Previous Year Total Sales
+- Total Sales YoY %
+- Count of Sales Orders
+- Count of Sales Order Line Items
+- Count of Sales Order Line Items Greater Than 50
+- Percentage of Sales Order Line Items
 
 ## Skills Demonstrated
 
