@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project is a Power BI sales analysis dashboard created as part of my Power BI learning and practice. The goal of this project is to demonstrate the full Power BI workflow, including data preparation, data modeling, DAX measures, report design, and interactive business intelligence visualizations.
+This project is a Power BI sales analysis dashboard created as part of my Power BI learning and practice. The goal of this project is to demonstrate the full Power BI workflow, including data preparation, data modeling, DAX measures, report design, drill-down analysis, and interactive business intelligence visualizations.
 
 The dashboard provides a high-level overview of sales performance, target comparison, sales by continent, product-level sales details, DAX measure practice, and sales breakdown by country.
 
@@ -29,6 +29,7 @@ The dashboard provides a high-level overview of sales performance, target compar
 - Created an interactive Power BI report with multiple pages
 - Built a sales overview dashboard with KPIs and trend analysis
 - Used slicers to filter data by continent and year
+- Added drill-down functionality to explore data at different levels of detail
 - Created visuals for sales performance, sales by continent, sales by country, and margin percentage by product category
 - Applied DAX measures for key business metrics
 - Practiced time intelligence measures such as year-to-date sales, previous year sales, and year-over-year percentage
@@ -40,6 +41,7 @@ The dashboard provides a high-level overview of sales performance, target compar
 - Power Query
 - DAX
 - Data modeling
+- Drill-down analysis
 - GitHub
 
 ## Main Report Pages
@@ -47,6 +49,8 @@ The dashboard provides a high-level overview of sales performance, target compar
 ### Overview
 
 The Overview page provides a high-level sales dashboard with total sales, target comparison, sales performance by year, total sales by continent, margin percentage by product category, and slicers for continent and year.
+
+This page also includes drill-down functionality, allowing users to explore sales performance from a higher-level view into more detailed levels of data.
 
 ### DAX Demos
 
@@ -67,6 +71,7 @@ The Sales by Country visual breaks down total sales by country and shows each co
 - Building relationships between tables
 - Creating DAX measures
 - Working with time intelligence calculations
+- Using drill-down features for deeper analysis
 - Designing interactive visuals
 - Using slicers and filters
 - Creating business-focused dashboards
@@ -84,6 +89,7 @@ This report helps answer questions such as:
 - Which countries contributed most to total sales?
 - Which product category had the highest margin percentage?
 - How do year-to-date sales compare with previous year sales?
+- How can users drill down into the data for more detailed analysis?
 - How can users filter the report by year and continent?
 
 ## Key Insights
@@ -94,6 +100,7 @@ This report helps answer questions such as:
 - Sales increased strongly from 2020 to 2021 and remained high in 2022.
 - Accessories had the highest margin percentage among the product categories shown.
 - The country-level breakdown shows how total sales are distributed across different markets.
+- Drill-down functionality allows users to explore sales data from summarized views to more detailed levels.
 
 ## Files in This Repository
 
